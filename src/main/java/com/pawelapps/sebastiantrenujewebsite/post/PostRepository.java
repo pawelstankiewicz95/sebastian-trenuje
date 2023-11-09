@@ -1,4 +1,6 @@
 package com.pawelapps.sebastiantrenujewebsite.post;
 
-public class PostRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostRepository<Post, Long> extends JpaRepository {
 }
